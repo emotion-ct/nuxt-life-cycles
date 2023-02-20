@@ -1,0 +1,52 @@
+@import 'reset';
+@import 'fonts';
+
+.content {
+  font-size: 16px;
+  line-height: 1.5;
+  a {
+    text-decoration: none;
+    color: #0000cc;
+  }
+  h3 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  h4 {
+    margin: 20px 0 0 0;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .result {
+    padding: 3px 10px 5px;
+    border-radius: 2px;
+    background-color: #000;
+    color: #fff;
+  }
+  .txt-underline {
+    text-decoration: underline;
+  }
+  .txt-ssr {
+    background: linear-gradient(90deg, red, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .txt-csr {
+    background: linear-gradient(90deg, #01c300, #3a82ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .txt-important {
+    color: red;
+  }
+  .sub-tit {
+    margin: 20px 0 0 0;
+    font-size: 18px;
+  }
+  .cont-wrap {
+    margin: 20px 0 0 0;
+    & + h3 {
+      margin: 40px 0 0 0;
+    }
+  }
+}
